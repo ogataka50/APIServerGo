@@ -4,9 +4,9 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/ogataka50/APIServerGo/pb/proto"
 	"github.com/ogataka50/APIServerGo/service"
 	"google.golang.org/grpc"
+	"github.com/ogataka50/APIServerGo/pb/proto"
 )
 
 func main() {
@@ -16,8 +16,8 @@ func main() {
 		log.Fatalln(err)
 	}
 	server := grpc.NewServer()
-	catService := &service.MyCatService{}
+	service := service.PingService{}
 	// 実行したい実処理をseverに登録する
-	pb.RegisterCatServer(server, catService)
+	ping.RegisterPingServer(server, &service)
 	server.Serve(listenPort)
 }
