@@ -6,7 +6,7 @@ import (
 
 	"github.com/ogataka50/APIServerGo/service"
 	"google.golang.org/grpc"
-	"github.com/ogataka50/APIServerGo/pb/proto"
+	"github.com/ogataka50/come-on-proto/go/protos"
 )
 
 func main() {

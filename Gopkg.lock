@@ -15,6 +15,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/ogataka50/come-on-proto"
+  packages = ["go/protos"]
+  revision = "01d17eef4fe1e5cb90d6c10b5d6b80edc7262773"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -86,6 +92,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "fe7ebfe5d12e28ce1d3aa032fce9686ee6d080a7f21ca94584f08cd74a5028de"
+  inputs-digest = "c9be6c72eb452ed9306a66a30af215a0de78889c6f28fd595da6b77fcbacb170"
   solver-name = "gps-cdcl"
   solver-version = 1

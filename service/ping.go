@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/ogataka50/APIServerGo/pb/proto"
+	"github.com/ogataka50/come-on-proto/go/protos"
 	"golang.org/x/net/context"
 )
 
