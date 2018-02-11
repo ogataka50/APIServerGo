@@ -17,7 +17,6 @@ func main() {
 	}
 	server := grpc.NewServer()
 	service := service.PingService{}
-	// 実行したい実処理をseverに登録する
 	ping.RegisterPingServer(server, &service)
 	server.Serve(listenPort)
 }
