@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/ogataka50/APIServerGo/service"
+	"github.com/ogataka50/go-api-server-go/service"
 	"google.golang.org/grpc"
 	"github.com/ogataka50/come-on-proto/go/protos"
 )
